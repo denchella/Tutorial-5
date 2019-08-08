@@ -1,0 +1,54 @@
+body {
+  background-image: url("img/style_shot.jpg");
+  background-size: 1600px 800px;
+}
+nav {
+top: 10px;
+position: fixed;
+width: 100%;
+height: 60px;
+font-size: 25px;
+
+}
+
+.header {
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 50px;
+padding: 10px;
+text-align: center;
+font-size: 35px;
+color: rgb(88,141,63);
+background-color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(88,141,63);
+}
+
+nav a {
+  color: rgb(88,141,63);
+  margin-left: 30px;
+  margin-right: 70px;
+  float: right;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+}
+
+.log_in_button {
+  float: left;
+  margin-left: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 50px;
+  margin-top: 10px;
+  background-color: white;
+}
